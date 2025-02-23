@@ -3,20 +3,20 @@
     padding: 1em;
     }
     
-    .container{
+.container{
     display: flex;
     align-items: center;
     }
     
-    .container imagem, .container frase{
+.container imagem, .container frase{
     padding: 1em;
     }
     
-    .container titulo, .container frase{
+.container titulo, .container frase{
     display:none;
     }
 
-    @media screen and (min-width: 820px) {
+@media screen and (min-width: 820px) {
         .container_titulo, .container_titulo--negrito{
             font-size: 30px;
         }
