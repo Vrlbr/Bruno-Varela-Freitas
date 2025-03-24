@@ -1,9 +1,22 @@
 @import url(styles/header.css);
 :root{
---cor-de-fundo: #9949B4;
+--cor-de-fundo: #9949b4;
 --cor-de-cabecalho: #FFFFFF;
 }
 body{
 background-color: var(--cor-de-fundo);
 margin: 0;
 }
+
+header{
+    background-color: var(--cor-cabecalho);
+}
+
+.container {
+    display: flex;
+    align-items: center;    
+}
+
+.container_imagem, .container_frase{
+    padding: 2em;
+    }
