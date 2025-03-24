@@ -9,7 +9,7 @@ margin: 0;
 }
 
 header{
-    background-color: var(--cor-cabecalho);
+    background-color: var(--cor-de-cabecalho);
 }
 
 .container {
